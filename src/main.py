@@ -81,5 +81,30 @@ avg["21/22"] = {"G" : avg_goal_21_22, "A" : avg_ass_21_22, "dG" : avg_Xgoal_21_2
 print("\n", avg, "\n")
 
 #%%
+# Creation des graphs representant les moyennes
 
+avgG = []
+avgA = []
+avgXG = []
+avgXA = []
+abs = []
 
+for i in avg :
+    avgG.append(avg[i]["G"])
+    avgXG.append(avg[i]["dG"])
+    avgA.append(avg[i]["A"])
+    avgXA.append(avg[i]["dA"])
+    abs.append(i)
+
+print(avgG)
+print(abs)
+
+plt.plot(abs, avgG, avgXG)
+plt.title("Evolution de la moyene des buts")
+plt.legend("--b", "g")
+plt.show()
+
+plt.plot(abs, avgA, avgXA)
+plt.title("Evolution de la moyenne des assistances")
+plt.legend("--b", "g")
+plt.show()
