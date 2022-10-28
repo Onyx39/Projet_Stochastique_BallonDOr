@@ -192,7 +192,7 @@ def show_avgXA () :
 
 def show_all () :
     """
-    This function displays all the plots created in this file
+    This function displays all the plots created in averages_calculation file
     Input : None
     Output : Four plots
     """
