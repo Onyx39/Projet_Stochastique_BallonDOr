@@ -1,4 +1,8 @@
-
+"""
+This file contains all the data we collected on XXX.com
+The data were manually written but we could have scrapped them
+There there collected on the 26th October 2022
+"""
 
 karim_benzema = {
                 "17/18" : {"G" : 5, "A" : 10, "dG" : -7.8, "dA" : 3.2}, 
@@ -64,5 +68,5 @@ harry_kane = {
             "21/22" : {"G" : 17, "A" : 9, "dG" : -2.6, "dA" : -0.3}
             }
 
-
+# Creation of the list that contains all the players
 players = [karim_benzema, sadio_mane, robert_lewandowski, mohammed_salah, kylian_mbappe, cristinao_ronaldo, lionel_messi, harry_kane]
