@@ -130,73 +130,30 @@ def avg_avg_calculation () :
 
     return avg_data
 
-def show_avgG () :
+def average_plots () :
     """
-    This function displays a plot with the average of goals per season
+    This function displays all the data averages
     Input : None
-    Output : A plot
+    Output : 4 plots
     """
 
     # Calculate the data needed
     avg_data = avg_avg_calculation()
 
+    plt.subplot(2, 2, 1)
     plt.plot(avg_data[0], avg_data[1], avg_data[5])
     plt.title("Evolution de la moyenne des buts")
-    plt.legend("--b", "g")
-    plt.show()
 
-def show_avgXG () : 
-    """
-    This function displays a plot with the average of goals minus goals expected per season
-    Input : None
-    Output : A plot
-    """
-
-    # Calculate the data needed
-    avg_data = avg_avg_calculation()
-
+    plt.subplot(2, 2, 2)
     plt.plot(avg_data[0], avg_data[2], avg_data[6])
     plt.title("Evolution de la moyenne de la differnce de buts")
-    plt.legend("--b", "g")
-    plt.show()
 
-def show_avgA () :
-    """
-    This function displays a plot with the average of assistances per season
-    Input : None
-    Output : A plot
-    """
-
-    # Calculate the data needed
-    avg_data = avg_avg_calculation()
-
+    plt.subplot(2, 2, 3)
     plt.plot(avg_data[0], avg_data[3], avg_data[7])
     plt.title("Evolution de la moyenne des assistances")
-    plt.legend("--b", "g")
-    plt.show()
 
-def show_avgXA () :
-    """
-    This function displays a plot with the average of assisatnces minus assisatences expected per season
-    Input : None
-    Output : A plot
-    """
-
-    # Calculate the data needed
-    avg_data = avg_avg_calculation()
-    
+    plt.subplot(2, 2, 4)
     plt.plot(avg_data[0], avg_data[4], avg_data[8])
     plt.title("Evolution de la moyenne de la difference d'assistances")
-    plt.legend("--b", "g")
-    plt.show()
 
-def show_all () :
-    """
-    This function displays all the plots created in averages_calculation file
-    Input : None
-    Output : Four plots
-    """
-    show_avgG()
-    show_avgXG()
-    show_avgA()
-    show_avgXA()
+    plt.show()

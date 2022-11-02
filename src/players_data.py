@@ -34,15 +34,15 @@ kbA.append(kbA3)
 kbA.append(kbA4)
 kbA.append(kbA5)
 
-print("AVGA 20/21", avg["20/21"]["A"])
+#print("AVGA 20/21", avg["20/21"]["A"])
 
 
 avgA = [avg["17/18"]["A"], avg["18/19"]["A"], avg["19/20"]["A"], 7.5, avg["21/22"]["A"]] #j'ai mis "7.5" directement psk j'ai eu un souci en appliquant la meme formule que les autres
 
-print("valeurs = ", kbG)
-print("Avg valeur = ", avgG)
-print("kbA = ", kbA)
-print("avgA = ", avgA)
+#print("valeurs = ", kbG)
+#print("Avg valeur = ", avgG)
+#print("kbA = ", kbA)
+#print("avgA = ", avgA)
 
 
 smG = []
@@ -244,12 +244,3 @@ hkA.append(hkA2)
 hkA.append(hkA3)
 hkA.append(hkA4)
 hkA.append(hkA5)
-
-"""
-ax1 = plt.subplot()
-ax1.plot(years, kbG, marker = 'o')
-ax2 = plt.subplot()
-ax2.plot(avgG, color ='red', marker ='o')
-
-plt.show()
-"""
