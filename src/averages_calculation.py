@@ -146,7 +146,7 @@ def average_plots () :
 
     plt.subplot(2, 2, 2)
     plt.plot(avg_data[0], avg_data[2], avg_data[6])
-    plt.title("Evolution de la moyenne de la differnce de buts")
+    plt.title("Evolution de la moyenne de la difference de buts")
 
     plt.subplot(2, 2, 3)
     plt.plot(avg_data[0], avg_data[3], avg_data[7])
