@@ -1,5 +1,5 @@
 """
-This file contains all the data we collected on XXX.com
+This file contains all the data we collected on fbref.com
 The data were manually written but we could have scrapped them
 There there collected on the 26th October 2022
 """
