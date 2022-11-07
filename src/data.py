@@ -68,5 +68,13 @@ harry_kane = {
             "21/22" : {"G" : 17, "A" : 9, "dG" : -2.6, "dA" : -0.3}
             }
 
+ballon_d_or = {
+            "17/18" : {"G" : 26, "A" : 5, "total" : 31}, 
+            "18/19" : {"G" : 34, "A" : 12, "total" : 46}, 
+            "19/20" : {"G" : 34, "A" : 4, "total" : 38}, 
+            "20/21" : {"G" : 30, "A" : 9, "total" : 39}, 
+            "21/22" : {"G" : 27, "A" : 12, "total" : 39}
+            }
+
 # Creation of the list that contains all the players
 players = [karim_benzema, sadio_mane, robert_lewandowski, mohammed_salah, kylian_mbappe, cristinao_ronaldo, lionel_messi, harry_kane]
