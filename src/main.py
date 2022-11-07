@@ -1,7 +1,9 @@
 import averages_calculation as avg_c
-import ploting
+import ploting as pl
+import goals_assistances as ga
 
 
-avg_c.average_plots()
-ploting.show_all_players_plots()
+#avg_c.average_plots()
+pl.show_all_players_plots()
+ga.show_cumulative_data()
 
