@@ -97,17 +97,17 @@ def show_cumulative_data () :
 
     lmC = []
 
-    lmC1 = players_data.lmG1+players_data.kmA1
-    lmC2 = players_data.lmG2+players_data.kmA2
-    lmC3 = players_data.lmG3+players_data.kmA3
-    lmC4 = players_data.lmG4+players_data.kmA4
-    lmC5 = players_data.lmG5+players_data.kmA5
+    lmC1 = players_data.lmG1+players_data.lmA1
+    lmC2 = players_data.lmG2+players_data.lmA2
+    lmC3 = players_data.lmG3+players_data.lmA3
+    lmC4 = players_data.lmG4+players_data.lmA4
+    lmC5 = players_data.lmG5+players_data.lmA5
 
-    lmC.append(kmC1)
-    lmC.append(kmC2)
-    lmC.append(kmC3)
-    lmC.append(kmC4)
-    lmC.append(kmC5)
+    lmC.append(lmC1)
+    lmC.append(lmC2)
+    lmC.append(lmC3)
+    lmC.append(lmC4)
+    lmC.append(lmC5)
 
 
     hkC = []
