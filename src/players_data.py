@@ -104,10 +104,10 @@ rlA.append(rlA5)
 msG = []
 
 msG1 = data.mohammed_salah["17/18"]["G"]
-msG2 = data.mohammed_salah["17/18"]["G"]
-msG3 = data.mohammed_salah["17/18"]["G"]
-msG4 = data.mohammed_salah["17/18"]["G"]
-msG5 = data.mohammed_salah["17/18"]["G"]
+msG2 = data.mohammed_salah["18/19"]["G"]
+msG3 = data.mohammed_salah["19/20"]["G"]
+msG4 = data.mohammed_salah["20/21"]["G"]
+msG5 = data.mohammed_salah["21/22"]["G"]
 
 msG.append(msG1)
 msG.append(msG2)
